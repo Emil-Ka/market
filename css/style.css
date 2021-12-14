@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+  border: 1px solid #000;
+}
+
+.main__container {
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid #000;
+  padding: 53px 0;
+}
+
+.main__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0 0 59px 0;
+}
+
+.main__product {
+  margin: 0 auto 35px;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.product {
+  max-width: 1025px;
+  min-height: 108px;
+  background: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 35px 40px;
+}
+
+.product__name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  max-width: 360px;
+  word-wrap: break-word;
+}
+
+.product__price {
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.product__count {
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.footer {
+  background: #C4C4C4;
+}
+
+.footer__container {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__label {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-block;
+}
+
+.form__input {
+  margin: 8px 0 0 0;
+  background: #FFFBFB;
+  border: 2px solid #000000;
+  border-radius: 9px;
+  min-height: 40px;
+  display: block;
+  padding: 9px 17px;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 200px;
+}
+.form__input--big {
+  min-width: 273px;
+}
+
+.form__btn {
+  max-width: 162px;
+  min-height: 48px;
+  padding: 9px 12px;
+  background: #03550B;
+  border-radius: 9px;
+  display: block;
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFBFB;
+  text-align: center;
+}

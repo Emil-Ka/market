@@ -1,0 +1,28 @@
+.product {
+   max-width: 1025px;
+   min-height: 108px;
+   background: #E5E5E5;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 12px;
+   padding: 35px 40px;
+}
+
+.product__name {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 37px;
+   max-width: 360px;
+   word-wrap: break-word;
+}
+
+.product__price {
+   font-size: 30px;
+   line-height: 37px;
+}
+
+.product__count {
+   font-size: 30px;
+   line-height: 37px;
+}

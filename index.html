@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,700&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.css">
+   <title>Market</title>
+</head>
+<body>
+   <main class="main">
+      <div class="main__container container">
+         <h1 class="main__title">
+            Список товаров
+         </h1>
+         <div class="main__product product">
+            <p class="product__name">12345678901234567890</p>
+            <p class="product__price">9900 ₽</p>
+            <p class="product__count">3 шт.</p>
+            <img src="img/trash.png" alt="Удалить" class="product__trash"> <!--cursor: pointer;-->
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer__container container">
+         <form action="" class="footer__form form">
+            <label for="product-name" class="form__label">Название товара:<br>
+            <input id="product-name" type="text" class="form__input  form__input--big"></label>
+            <label for="product-price" class="form__label">Цена:<br>
+            <input id="product-price" type="" class="form__input"></label>
+            <label for="product-count" class="form__label">Количество:<br>
+            <input id="product-count" type="text" class="form__input"></label>
+            <button class="form__btn" type="submit">Отправить</button>
+         </form>
+      </div>
+   </footer>
+</body>
+</html>
