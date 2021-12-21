@@ -132,6 +132,11 @@ body {
   line-height: 37px;
 }
 
+.product__trash {
+  display: block;
+  cursor: pointer;
+}
+
 .footer {
   background: #C4C4C4;
 }
